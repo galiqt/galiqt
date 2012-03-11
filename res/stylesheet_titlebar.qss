@@ -1,0 +1,7 @@
+QWidget {
+	background-color: rgb(121,37,37);
+} 
+
+QLabel {
+	font:20pt; background-color: rgb(121,37,37); color: rgb(255,255,255);
+}

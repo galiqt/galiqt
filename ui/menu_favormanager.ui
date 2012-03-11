@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuFavorManager</class>
+ <widget class="QWidget" name="MenuFavorManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MenuFavorManager</string>
+  </property>
+  <widget class="QListView" name="serviceList">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>231</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="favorList">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>90</y>
+     <width>231</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="serviceListTitle">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Service List</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="favorListTitle">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>50</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Favor List</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="helpInfo">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>490</y>
+     <width>420</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>serviceList</sender>
+   <signal>activated(QModelIndex)</signal>
+   <receiver>favorList</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>675</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

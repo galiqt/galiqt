@@ -1,0 +1,39 @@
+
+QMainWindow {
+	background-image: url(:/normal_play.png);
+	color: black;
+}
+
+QLabel {
+	color: white;
+}
+
+QLineEdit {
+	background: qradialgradient(cx:0, cy:0, radius: 1,
+            fx:0.5, fy:0.5, stop:0 white, stop:1 rgba(0,190,0, 60%));
+	border-radius: 9px;
+}
+
+QCheckBox:checked {
+	color: green;     
+}
+
+QCheckBox::indicator {
+      width: 25px;
+      height: 25px;
+}
+
+
+QRadioButton{
+      spacing: 10
+}
+
+QRadioButton::indicator {
+      width: 25px;
+      height: 25px;
+}
+
+QRadioButton:checked {
+      color: rgb(230,115,0);     
+}
+

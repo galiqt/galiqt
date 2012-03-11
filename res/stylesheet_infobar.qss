@@ -1,0 +1,59 @@
+QLineEdit#idEdit{
+	background: rgb(121,37,37);
+	font:25pt; 
+	color: rgb(230,230,0);
+}
+
+QLabel#programNameLabel{
+	background: rgb(121,37,37);
+	font:20pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#numLabel{
+	background: rgb(121,37,37);
+	font:20pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#numDataLabel{
+	background: rgb(121,37,37);
+	font:20pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#presentLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#followLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#pEventTimeLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#pEventNameLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#fEventTimeLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}
+
+QLabel#fEventNameLabel{
+	background:rgb(145, 145,145);
+	font:16pt; 
+	color: rgb(255,255,255);
+}

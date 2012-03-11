@@ -1,0 +1,4 @@
+QLabel#errLabel{
+	font:10pt;
+	color:red;
+}

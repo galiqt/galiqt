@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>stylesheet_common.qss</file>
+        <file>stylesheet_root.qss</file>
+        <file>stylesheet_label_title.qss</file>
+        <file>stylesheet_av_setup.qss</file>
+        <file>stylesheet_network.qss</file>
+        <file>stylesheet_infobar.qss</file>
+        <file>stylesheet_pin.qss</file>
+        <file>stylesheet_titlebar.qss</file>
+        <file>normal_play.png</file>
+        <file>CategoryTitle_Broadcast.png</file>
+        <file>CategoryTitle_MultiMedia.png</file>
+        <file>CategoryTitle_PVR.png</file>
+        <file>CategoryTitle_VOD.png</file>
+        <file>CategoryTitle_EPG.png</file>
+        <file>CategoryTitle_SystemSetting.png</file>
+        <file>icon_arrow_r.png</file>
+        <file>icon_arrow_l.png</file>
+    </qresource>
+    <qresource prefix="/menuServiceList">
+        <file>icon_smile_small.png</file>
+        <file>icon_lock_small.png</file>
+    </qresource>
+</RCC>

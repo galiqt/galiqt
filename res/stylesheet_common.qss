@@ -1,0 +1,98 @@
+QWidget {
+	font:16pt;
+	background-color: rgb(75,75,75);
+	color: rgb(255,255,255);
+}
+ 
+QLabel {
+	background-color: rgb(75,75,75);
+	color: rgb(255,255,255);
+}
+
+QRadioButton{
+      spacing: 10
+}
+
+QRadioButton::indicator {
+      width: 25px;
+      height: 25px;
+}
+
+QRadioButton:checked {
+      color: rgb(230,115,0);     
+}
+
+QPushButton {
+			color: white;
+    	background-color: rgb(86,86,86);
+			border-width: 12px;
+}
+
+QPushButton:focus {
+			color: black;
+			background-color: rgb(219,143,15);
+}
+
+/*Vertical scroll bar style*/
+QScrollBar:vertical {
+    border: 0px;
+    width: 0px;
+}
+
+/**QListView common style**/
+
+QListView {
+    show-decoration-selected: 1
+}
+QListView {
+    border: 0px;
+    background-color: rgba(255,255,255,0);
+}
+QListView::item {
+    height:30px;
+    margin-bottom: 3px;
+}
+QListView::item:selected:active {
+    background-color: rgb(249,207,43);
+    color: rgb(28,22,0)
+}
+QListView::item:selected:!active {
+    background-color: rgb(140,130,30);
+    color: rgb(28,22,0)
+}
+QListView::item:!selected:active {
+    background-color: rgb(113,118,122);
+    color: rgb(224,224,226)
+}
+QListView::item:!selected:!active {
+    background-color: rgb(113,118,122);
+    color: rgb(224,224,226)
+}
+
+/**spcific the service list **/
+QWidget#MenuServiceList {
+    background-color: rgba(255,255,255,0);
+}
+QLabel#helpInfo {
+    background-color: rgb(113,118,122);
+}
+
+
+/**spcific the favor manager**/
+QWidget#MenuFavorManager {
+    background-color: rgba(255,255,255,0);
+}
+QLabel#serviceListTitle {
+    background-color: rgb(113,118,122);
+}
+QLabel#favorListTitle {
+    background-color: rgb(113,118,122);
+}
+QLabel#favorListTitle {
+    background-color: rgb(113,118,122);
+}
+
+
+
+
+
